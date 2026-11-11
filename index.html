@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipos, Refacciones y Servicio Industrial — Montacargas y Patines | Venta, Renta y Servicio</title>
+<meta name="description" content="Venta, renta, refacciones y servicio de montacargas y patines hidráulicos. Mantenimiento preventivo y correctivo multimarca, asesoría. Base en CDMX, cobertura a nivel nacional.">
+<meta property="og:title" content="Equipos, Refacciones y Servicio Industrial">
+<meta property="og:description" content="Venta, renta y servicio de montacargas y patines. Multimarca, cobertura nacional desde CDMX.">
+<meta property="og:image" content="https://equiposrefaccionesmx.github.io/equipos-refacciones-servicio/img/logo-original.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/icono-original.jpg">
+<style>
+:root{--dark:#131a14;--dark2:#1b261c;--green:#8dc63f;--green2:#6da32a;--lime:#c6e265;--ink:#182018;--mut:#5c6a5c;--bg:#f4f7f0;--card:#ffffff;--line:#dde5d3;--wa:#22c064}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+img{max-width:100%;display:block}
+a{text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:60;background:rgba(19,26,20,.96);backdrop-filter:blur(6px);box-shadow:0 4px 20px rgba(0,0,0,.25)}
+header .wrap{display:flex;align-items:center;gap:14px;padding-top:10px;padding-bottom:10px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff}
+.logo img{width:52px;height:52px;border-radius:10px;background:#fff;object-fit:contain;padding:3px}
+.logo img.wide{width:auto;height:56px;padding:4px 10px}
+.logo .nm{font-weight:800;font-size:1.02rem;line-height:1.15}
+.logo .nm small{display:block;color:var(--lime);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase}
+.logo .t1{font-weight:800;font-size:1.02rem;line-height:1.15}
+.logo .t2{font-size:.78rem;color:var(--lime);letter-spacing:.06em;text-transform:uppercase}
+nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#e8f0e2;font-weight:600;font-size:.95rem;padding:8px 11px;border-radius:8px}
+nav a:hover{background:rgba(141,198,63,.18);color:#fff}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--green);color:#10160f;font-weight:800;padding:13px 24px;border-radius:12px;box-shadow:0 8px 20px rgba(109,163,42,.35);transition:.2s;border:0;cursor:pointer;font-size:1rem}
+.btn:hover{background:var(--lime);transform:translateY(-1px)}
+.btn.wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(34,192,100,.35)}
+.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55);box-shadow:none}
+.hero{background:linear-gradient(160deg,var(--dark) 0%,var(--dark2) 55%,#243218 100%);color:#fff;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center;padding-top:52px;padding-bottom:56px}
+.hero h1{font-size:clamp(1.9rem,4.4vw,3rem);line-height:1.1;font-weight:900}
+.hero h1 span{color:var(--green)}
+.hero p.sub{margin-top:16px;font-size:1.08rem;color:#d8e4cf;max-width:34rem}
+.hero .cta{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.hero .badges{margin-top:26px;display:flex;gap:10px;flex-wrap:wrap}
+.hero .badges span{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.22);padding:7px 13px;border-radius:999px;font-size:.86rem;font-weight:700}
+.hero figure{border-radius:20px;overflow:hidden;box-shadow:0 24px 50px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.15)}
+.hero figure img{height:100%;object-fit:cover;aspect-ratio:4/3}
+section{padding:64px 0}
+.kicker{color:var(--green2);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;text-align:center}
+h2{font-size:clamp(1.55rem,3.2vw,2.2rem);text-align:center;margin:8px 0 10px;font-weight:900;color:var(--dark)}
+.lead{text-align:center;color:var(--mut);max-width:46rem;margin:0 auto 36px}
+.grid{display:grid;gap:20px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 8px 24px rgba(24,32,24,.06)}
+.card .ic{font-size:2rem;margin-bottom:10px}
+.card h3{font-size:1.14rem;margin-bottom:8px;color:var(--dark)}
+.card p{color:var(--mut);font-size:.97rem}
+.card .mini{margin-top:16px;display:inline-flex;font-weight:800;color:var(--green2)}
+.card .mini:hover{color:var(--dark)}
+.strip{background:var(--dark);color:#fff}
+.strip .wrap{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;padding-top:20px;padding-bottom:20px}
+.strip span{font-weight:800;letter-spacing:.05em;font-size:.95rem}
+.strip b{color:var(--green)}
+.eq{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.eqcard{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 10px 28px rgba(24,32,24,.08)}
+.eqcard img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.eqcard div{padding:22px 24px 26px}
+.eqcard h3{font-size:1.25rem;margin-bottom:8px}
+.eqcard p{color:var(--mut)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;text-align:center}
+.step .n{width:46px;height:46px;margin:0 auto 12px;border-radius:50%;background:var(--green);color:#10160f;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.gal img{border-radius:14px;aspect-ratio:4/3;object-fit:cover;width:100%;box-shadow:0 8px 20px rgba(24,32,24,.12)}
+.cov{background:linear-gradient(150deg,var(--dark2),#2b3d1e);color:#fff;border-radius:24px;padding:38px;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.cov h3{font-size:1.5rem;margin-bottom:10px}
+.cov p{color:#d8e4cf}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+.info p{margin-bottom:12px;color:var(--mut)}
+.info b{color:var(--dark)}
+form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(24,32,24,.06)}
+form input,form select,form textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;margin-bottom:12px;font:inherit;background:#fbfdf9}
+form button{width:100%;justify-content:center}
+footer{background:var(--dark);color:#cfe0c2;padding:34px 0 26px;margin-top:0}
+footer .fname{color:#fff;font-weight:900;font-size:1.15rem}
+footer a{color:var(--lime)}
+.floatwa{position:fixed;right:18px;bottom:18px;z-index:70;width:58px;height:58px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;font-size:1.7rem;box-shadow:0 12px 28px rgba(34,192,100,.45)}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.g3,.steps{grid-template-columns:1fr}.g2,.eq,.split,.cov{grid-template-columns:1fr}.gal{grid-template-columns:repeat(2,1fr)}nav{display:none}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Equipos, Refacciones y Servicio Industrial","description":"Venta, renta, refacciones y servicio de montacargas y patines hidráulicos. Mantenimiento preventivo y correctivo multimarca.","image":"https://equiposrefaccionesmx.github.io/equipos-refacciones-servicio/img/logo-original.jpg","telephone":"+52-55-3959-8929","email":"hugoperedo_c@yahoo.com.mx","address":{"@type":"PostalAddress","streetAddress":"Americo Vespucio Mz. 9 Lt.9, Col. Lomas de Capula, Alcaldía Álvaro Obregón","addressLocality":"Ciudad de México","postalCode":"01270","addressCountry":"MX"},"areaServed":"México","founder":{"@type":"Person","name":"Hugo Alberto Peredo Cabrera"}}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#inicio">
+      <img src="img/icono-original.jpg" alt="Logotipo de Equipos, Refacciones y Servicio Industrial">
+      <span class="nm">Equipos, Refacciones<small>y Servicio Industrial</small></span>
+    </a>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#equipos">Equipos</a>
+      <a href="#cobertura">Cobertura</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="inicio" style="padding:0">
+  <div class="wrap">
+    <div>
+      <h1>Venta, renta y servicio de <span>montacargas y patines</span></h1>
+      <p class="sub">Equipos para manejo de carga: venta, renta, refacciones, mantenimiento preventivo y correctivo y asesoría. Servicio multimarca con base en CDMX y cobertura a nivel nacional.</p>
+      <div class="cta">
+        <a class="btn wa" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20manejo%20de%20carga" target="_blank" rel="noopener">💬 Cotizar por WhatsApp</a>
+        <a class="btn ghost" href="#servicios">Ver servicios</a>
+      </div>
+      <div class="badges"><span>✔ Distribuidor SMH · TVH</span><span>✔ Multimarcas</span><span>✔ Cobertura nacional</span><span>✔ Base en CDMX</span></div>
+    </div>
+    <figure><img src="img/hero.webp" alt="Montacargas trabajando en un almacén"></figure>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="wrap">
+    <div class="kicker">Servicios</div>
+    <h2>Todo para tus equipos de manejo de carga</h2>
+    <p class="lead">Un solo aliado para comprar, rentar y mantener trabajando tus montacargas y patines. Cotiza cualquier servicio por WhatsApp.</p>
+    <div class="grid g3">
+      <div class="card"><div class="ic">🏷️</div><h3>Venta</h3><p>Montacargas y patines para tu operación. Te asesoramos para elegir el equipo adecuado según tu carga y tu espacio de trabajo.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20la%20VENTA%20de%20un%20equipo" target="_blank" rel="noopener">Cotizar venta →</a></div>
+      <div class="card"><div class="ic">🔑</div><h3>Renta</h3><p>Equipos en renta para cubrir temporadas, proyectos o emergencias sin detener tu operación.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20la%20RENTA%20de%20un%20equipo" target="_blank" rel="noopener">Cotizar renta →</a></div>
+      <div class="card"><div class="ic">🧩</div><h3>Refacciones</h3><p>Refacciones para equipos de manejo de carga multimarca. Envíanos los datos de tu equipo y te cotizamos la pieza que necesitas.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20una%20REFACCI%C3%93N" target="_blank" rel="noopener">Cotizar refacción →</a></div>
+      <div class="card"><div class="ic">🛡️</div><h3>Mantenimiento preventivo</h3><p>Servicios programados para alargar la vida de tus equipos y evitar paros inesperados en tu almacén.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20informes%20de%20MANTENIMIENTO%20PREVENTIVO" target="_blank" rel="noopener">Pedir informes →</a></div>
+      <div class="card"><div class="ic">🔧</div><h3>Mantenimiento correctivo</h3><p>Diagnóstico y reparación de fallas en montacargas y patines, multimarca, para que vuelvas a operar lo antes posible.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20mi%20equipo%20tiene%20una%20FALLA%2C%20quiero%20cotizar%20la%20reparaci%C3%B3n" target="_blank" rel="noopener">Cotizar reparación →</a></div>
+      <div class="card"><div class="ic">🎓</div><h3>Asesoría</h3><p>Te ayudamos a decidir qué equipo comprar o rentar, qué refacción lleva tu máquina y cómo mantener tu flotilla trabajando.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20ASESOR%C3%8DA%20sobre%20equipos%20de%20manejo%20de%20carga" target="_blank" rel="noopener">Pedir asesoría →</a></div>
+    </div>
+  </div>
+</section>
+
+<div class="strip"><div class="wrap"><span>SERVICIO <b>MULTIMARCAS</b></span><span>·</span><span>VENTA Y RENTA</span><span>·</span><span>COBERTURA <b>NACIONAL</b></span></div></div>
+
+<section id="equipos">
+  <div class="wrap">
+    <div class="kicker">Equipos</div>
+    <h2>Montacargas y patines</h2>
+    <p class="lead">Los equipos que mueven tu mercancía, con el respaldo de venta, renta, refacciones y servicio en un solo lugar.</p>
+    <div class="eq">
+      <div class="eqcard"><img src="img/venta.webp" alt="Montacargas en venta y renta"><div><h3>Montacargas</h3><p>Venta y renta de montacargas para almacenes, bodegas y centros de distribución, con refacciones y mantenimiento multimarca.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20un%20MONTACARGAS" target="_blank" rel="noopener" style="font-weight:800;color:var(--green2)">Cotizar montacargas →</a></div></div>
+      <div class="eqcard"><img src="img/patines.webp" alt="Patín hidráulico moviendo una tarima"><div><h3>Patines hidráulicos</h3><p>Venta, renta y servicio de patines para manejo de carga en tarimas. La herramienta básica que no puede faltar en tu bodega.</p><a class="mini" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20un%20PAT%C3%8DN%20hidr%C3%A1ulico" target="_blank" rel="noopener" style="font-weight:800;color:var(--green2)">Cotizar patín →</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff">
+  <div class="wrap">
+    <div class="kicker">Así trabajamos</div>
+    <h2>Cotizar es así de fácil</h2>
+    <p class="lead">Sin vueltas: nos escribes, te asesoramos y resolvemos tu necesidad de equipo o servicio.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Nos contactas</h3><p style="color:var(--mut)">Escríbenos por WhatsApp y cuéntanos qué equipo o servicio necesitas.</p></div>
+      <div class="step"><div class="n">2</div><h3>Te asesoramos y cotizamos</h3><p style="color:var(--mut)">Revisamos tu caso, te recomendamos la mejor opción y te pasamos tu cotización.</p></div>
+      <div class="step"><div class="n">3</div><h3>Entregamos o damos servicio</h3><p style="color:var(--mut)">Entregamos tu equipo o atendemos el servicio, en CDMX o a nivel nacional.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="cobertura" style="padding-top:0">
+  <div class="wrap">
+    <div class="cov">
+      <div>
+        <h3>Base en CDMX, servicio a nivel nacional 🇲🇽</h3>
+        <p>Estamos en Lomas de Capula, Álvaro Obregón, Ciudad de México, y brindamos nuestros servicios de venta, renta, refacciones y mantenimiento en todo el país.</p>
+        <p style="margin-top:12px">📍 Americo Vespucio Mz. 9 Lt.9, Col. Lomas de Capula, Alcaldía Álvaro Obregón, C.P. 01270, CDMX</p>
+      </div>
+      <div>
+        <p style="margin-bottom:12px"><b style="color:#fff">Atención directa del Ing. Hugo Alberto Peredo Cabrera</b><br><span style="color:#d8e4cf">Gerencia General</span></p>
+        <a class="btn wa" href="https://wa.me/525578672479?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20manejo%20de%20carga" target="_blank" rel="noopener">💬 WhatsApp 55 7867 2479</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker">Galería</div>
+    <h2>Nuestro trabajo</h2>
+    <div class="gal">
+      <img src="img/hero.webp" alt="Montacargas en un almacén">
+      <img src="img/venta.webp" alt="Montacargas en patio">
+      <img src="img/patines.webp" alt="Patín hidráulico en bodega">
+      <img src="img/servicio.webp" alt="Técnico dando mantenimiento a un montacargas">
+    </div>
+  </div>
+</section>
+
+<section id="contacto" style="background:#fff">
+  <div class="wrap split">
+    <div class="info">
+      <div class="kicker" style="text-align:left">Contacto</div>
+      <h2 style="text-align:left">Estamos para atenderte</h2>
+      <p>📍 <b>Americo Vespucio Mz. 9 Lt.9, Col. Lomas de Capula, Alcaldía Álvaro Obregón, C.P. 01270, CDMX</b></p>
+      <p>💬 WhatsApp: <b>55 3959 8929</b> y <b>55 7867 2479</b></p>
+      <p>✉️ Correo: <b>hugoperedo_c@yahoo.com.mx</b></p>
+      <p>✉️ Correo adicional: <b>hberto2706@gmail.com</b></p>
+      <p>👤 Ing. Hugo Alberto Peredo Cabrera — Gerencia General</p>
+      <p style="margin-top:18px"><a class="btn" href="equipos-refacciones-servicio.apk" download>📲 Descargar la app</a></p>
+    </div>
+    <form id="formCotiza">
+      <input id="fNombre" type="text" placeholder="Tu nombre" required>
+      <select id="fServicio">
+        <option>Venta de equipo</option><option>Renta de equipo</option><option>Refacciones</option>
+        <option>Mantenimiento preventivo</option><option>Mantenimiento correctivo</option><option>Asesoría</option>
+      </select>
+      <textarea id="fMsg" rows="4" placeholder="Cuéntanos qué necesitas (equipo, capacidad, ciudad…)" required></textarea>
+      <button class="btn wa" type="submit">💬 Cotizar por WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fname">Equipos, Refacciones y Servicio Industrial</div>
+    <p>Venta, renta, refacciones y servicio de montacargas y patines · Multimarcas · Cobertura nacional</p>
+    <p style="margin-top:8px">Ing. Hugo Alberto Peredo Cabrera · <a href="https://wa.me/525539598929" target="_blank" rel="noopener">WhatsApp 55 3959 8929</a> · hugoperedo_c@yahoo.com.mx · hberto2706@gmail.com</p>
+  </div>
+</footer>
+
+<a class="floatwa" href="https://wa.me/525539598929?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20manejo%20de%20carga" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script>
+if('serviceWorker' in navigator){addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').then(r=>r.update()).catch(()=>{})})}
+document.getElementById('formCotiza').addEventListener('submit',e=>{
+  e.preventDefault();
+  const n=document.getElementById('fNombre').value.trim(),
+        s=document.getElementById('fServicio').value,
+        m=document.getElementById('fMsg').value.trim();
+  const t='Hola, soy '+n+'. Me interesa: '+s+'. '+m;
+  open('https://wa.me/525539598929?text='+encodeURIComponent(t),'_blank');
+});
+</script>
+</body>
+</html>
